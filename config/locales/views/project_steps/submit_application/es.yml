@@ -16,7 +16,7 @@ es:
           instruction: "Antes se acepta su solicitud de permiso debe visitar el Centro de Servicios de Desarrollo de One-Stop para presentar documentos adicionales y pagar sus honorarios."
           details: "Por favor, visite el mostrador de permiso en el One -Stop y hacerles saber que usted solicitó con Homebase."
           location:
-            html: "<strong>Dónde ir:</strong> <p>El Departamento de Servicios de Desarrollo de One-Stop está situado en la calle:</p><a href=\"https://www.google.com/maps/place/1901+S+Alamo+St/@29.4120584,-98.5013719,17z/data=!3m1!4b1!4m2!3m1!1s0x865c58b9ef04f373:0x367c26cca99a8393\" target=\"_blank\">1901 S. Alamo St. <br>San Antonio, Texas 78204</a>"
+            html: "<strong>Dónde ir:</strong> <p>El Departamento de Servicios de Desarrollo de One-Stop está situado en la calle:</p><a href=\"https://www.google.com/maps/place/1901+S+Alamo+St/@29.4120584,-98.5013719,17z/data=!3m1!4b1!4m2!3m1!1s0x865c58b9ef04f373:0x367c26cca99a8393\" target=\"blank_\">1901 S. Alamo St. <br>San Antonio, Texas 78204</a>"
           hour:
             html: "<strong>Las horas de oficina:</strong> 7:45am–4:30pm (Lunes-Viernes)"
           bring:

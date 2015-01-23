@@ -16,7 +16,7 @@ en:
           instruction: "Before your permit application is accepted you must visit the Development Services Center One-Stop to submit additional documents and pay your fees."
           details: "Please visit the permit counter at the One-Stop and let them know you applied with Homebase."
           location:
-            html: "<strong>Where:</strong> The Development Services Department One-Stop is located at <a href=\"https://www.google.com/maps/place/1901+S+Alamo+St/@29.4120584,-98.5013719,17z/data=!3m1!4b1!4m2!3m1!1s0x865c58b9ef04f373:0x367c26cca99a8393\" target=\"_blank\">1901 S. Alamo, San Antonio, Texas 78204</a>."
+            html: "<strong>Where:</strong> The Development Services Department One-Stop is located at <a href=\"https://www.google.com/maps/place/1901+S+Alamo+St/@29.4120584,-98.5013719,17z/data=!3m1!4b1!4m2!3m1!1s0x865c58b9ef04f373:0x367c26cca99a8393\" target=\"blank_\">1901 S. Alamo, San Antonio, Texas 78204</a>."
           hour:
             html: "<strong>Office hours:</strong> 7:45am–4:30pm (Monday–Friday)"
           bring:
