@@ -38,6 +38,7 @@ ActiveRecord::Schema.define(version: 20141026192510) do
     t.integer  "house_area"
     t.integer  "addition_area"
     t.string   "ac"
+    t.boolean  "window"
     t.integer  "window_count"
     t.boolean  "door"
     t.integer  "door_count"
@@ -54,7 +55,6 @@ ActiveRecord::Schema.define(version: 20141026192510) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "project_id"
-    t.boolean  "window"
   end
 
   add_index "general_repair_permits", ["project_id"], :name => "index_general_repair_permits_on_project_id"
