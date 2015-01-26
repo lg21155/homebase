@@ -22,7 +22,7 @@ en:
           helper_text: "This is the permit for the following project(s):"
           app_cost:
             heading: "This is the application cost:"
-            html: "Application costs are based on the <a href=\"https://webapps1.sanantonio.gov/DSDDocumentCentral/upload/CodeforAmerica%20easy%20fee%20(3).pdf\" target=\"_blank\">Fee Schedule [PDF]</a>."
+            html: "Application costs are based on the <a href=\"https://webapps1.sanantonio.gov/DSDDocumentCentral/upload/CodeforAmerica%20easy%20fee%20(3).pdf\" target=\"_blank\">Fee Schedule [PDF]</a> ."
           req_docs: "These are the required documents:"
           misc_text: "We will help you fill these out:"
           permit_app: "Permit application"
