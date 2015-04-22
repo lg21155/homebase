@@ -20,8 +20,8 @@ es:
         size:
           label: "Tamaño"
           options:
-            lte_120: "Menor o igual a 120 pies cuadrados" 
-            gt_120: "Más de 120 pies cuadrados"
+            lte_120: "Menor o igual a 300 pies cuadrados" 
+            gt_120: "Más de 300 pies cuadrados"
 
         num_story:
           label: "Pisos"

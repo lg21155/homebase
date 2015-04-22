@@ -20,8 +20,8 @@ en:
         size:
           label: "Size"
           options:
-            lte_120:  "Less than or equal to 120 square feet" 
-            gt_120:   "Greater than 120 square feet"
+            lte_120:  "Less than or equal to 300 square feet" 
+            gt_120:   "Greater than 300 square feet"
 
         num_story:
           label: "Floors"
