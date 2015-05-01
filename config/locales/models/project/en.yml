@@ -34,8 +34,8 @@ en:
         size:
           label: "Size"
           options:
-            lte_200: "Less than or equal to 200 square feet"
-            gt_200: "Greater than 200 square feet"
+            lte_200: "Less than or equal to 300 square feet"
+            gt_200: "Greater than 300 square feet"
         grade:
           label: "Grade"
           options:

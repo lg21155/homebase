@@ -1,0 +1,202 @@
+---
+FieldType: Text
+FieldName: NCB
+FieldNameAlt: NCB:
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: DATE
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: ADDRESS
+FieldNameAlt: Address:
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: LOT
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: BLOCK
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: JOB_COST
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: OWNER_NAME
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: SQ_FOOT_HOUSE
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: SQ_FOOT_ADDITION
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: NUMBER_WINDOWS
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: NUMBER_DOORS
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: CONTRACTOR_NAME
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: CONTRACTOR_ID
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: LICENSE_NUMBER
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: REGISTERED_LICENSE_HOLDER
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: AUTHORIZED_AGENT_NAME
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: CONTACT_ID_NUMBER
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TELEPHONE
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: FAX
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: WORK_SUMMARY
+FieldFlags: 4096
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: EMAIL
+FieldFlags: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: ADDITIONS_CHECKBOX
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: DECK_CHECKBOX
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: POOL_CHECKBOX
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: CARPORT_COVER_CHECKBOX
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: GENERAL_REPAIRS_CHECKBOX
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: WINDOWS_CHECKBOX
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: DOORS_CHECKBOX
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: WALLS_CHECKBOX
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: SIDING_CHECKBOX
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: FLOOR_STRUCTURAL_CHECKBOX
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: ESCROW_YES_CHECKBOX
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: ESCROW_NO_CHECKBOX
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: ACCESSORY_STRUCTURE_CHECKBOX
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: AC_NONE
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: AC_WALL_UNIT
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: AC_EXTENDED
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: AC_NEW_SPLIT
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: OTHER_CONTACT_ID
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: SIGNATURE
+FieldFlags: 12582912
+FieldJustification: Left
