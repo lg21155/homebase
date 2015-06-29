@@ -6,4 +6,4 @@ en:
         description: "We weren't able to fill out your permit application."
         instruction: "Try hitting the back button then clicking on the \"Download then print\" button again. That might fix the problem for you."
         contact:
-          html: "If you're still having problems, please let us know by email at <a href=\"mailto:sanantonio@codeforamerica.org\">sanantonio@codeforamerica.org</a>."
+          html: "If you're still having problems, please let us know by email at <a href=\"mailto:homebase@sanantonio.gov\">homebase@sanantonio.gov</a>."

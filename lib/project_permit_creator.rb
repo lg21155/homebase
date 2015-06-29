@@ -9,12 +9,19 @@ class ProjectPermitCreator
     @file_path = file_path
     @project = project
     @pdftk = pdftk
+    @form_template_path = (project.general_repair_permit.window ||
+                                      project.general_repair_permit.door ||
+                                      project.general_repair_permit.wall ||
+                                      project.general_repair_permit.siding ||
+                                      project.general_repair_permit.floor) ? "#{Rails.root}/lib/PermitForms/Res_Minor_Repair_App.pdf" : "#{Rails.root}/lib/PermitForms/Res_Gen_Repair_App.pdf"
+      
   end  
 
   def create_permit
+    
     if project.general_repair_permit
-      template_path = "#{Rails.root}/lib/PermitForms/general-repairs-form-template.pdf"
-
+      print(form_template_path)
+     
       # PDF Textfields
       #["NCB", "DATE", "ADDRESS", "LOT", "BLOCK", "JOB_COST", "OWNER_NAME", "SQ_FOOT_HOUSE", "SQ_FOOT_ADDITION", 
       # "NUMBER_WINDOWS", "NUMBER_DOORS", "CONTRACTOR_NAME", "CONTRACTOR_ID", "LICENSE_NUMBER", "REGISTERED_LICENSE_HOLDER", 
@@ -24,8 +31,9 @@ class ProjectPermitCreator
       # "ACCESSORY_STRUCTURE_CHECKBOX", "AC_NONE", "AC_WALL_UNIT", "AC_EXTENDED", "AC_NEW_SPLIT", "OTHER_CONTACT_ID"]
       
       form_data = GeneralRepairPermitPresenter.new(project).to_hash
+      
 
-      pdftk.fill_form template_path, 
+      pdftk.fill_form @form_template_path,
                       file_path, 
                       form_data,
                       flatten: true
@@ -49,4 +57,4 @@ class ProjectPermitCreator
       return status
     end
   end
-end
+end #end def

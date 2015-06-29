@@ -67,7 +67,7 @@ class ProjectStepsController < ApplicationController
 
         # Delete the temporary file after saved in the model
 
-        File.delete file_path
+      File.delete file_path
 
         # Get hash of permit needs that was saved in session that will be used
         # to display permits in categories
