@@ -66,7 +66,6 @@ class ProjectStepsController < ApplicationController
                                                           filename: "#{@unique_key}.pdf")
 
         # Delete the temporary file after saved in the model
-
         File.delete file_path
 
         # Get hash of permit needs that was saved in session that will be used

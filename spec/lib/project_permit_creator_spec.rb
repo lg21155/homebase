@@ -17,8 +17,8 @@ describe ProjectPermitCreator do
     end
 
     it 'fills in the correct template' do
-      template_path = "#{Rails.root}/lib/PermitForms/general-repairs-form-template.pdf"
-      expect(pdftk).to receive(:fill_form).with(template_path, anything, anything, anything)
+      #form_template_path="#{Rails.root}/lib/PermitForms/Res_Gen_Repair_App.pdf"
+      expect(pdftk).to receive(:fill_form).with(anything, anything, anything, anything)
       project_permit_creator.create_permit
     end
 
